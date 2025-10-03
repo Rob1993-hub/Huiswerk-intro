@@ -11,17 +11,18 @@ for ($currentNumber = 0; $currentNumber < $length; $currentNumber++) { # Als cur
         echo "$currentNumber is een oneven nummer";
      
     }
-    if ($length % 2 === 0) { #Als getal te delen is door 2 zonder rest, tellen we er 1 op bij "even"
-        $counts["even"]++;
-        } else { # Is het getal oneven? Dan tellen we er 1 op bij "odd"
-        $counts["odd"]++;
+    #if ($length % 2 === 0) { #Als getal te delen is door 2 zonder rest, tellen we er 1 op bij "even"
+        #$counts["even"]++; (deze regel onder regel 9 zetten
+        #} else { # Is het getal oneven? Dan tellen we er 1 op bij "odd"
+        #$counts["odd"]++;  onder regel 11 zetten
         
 
-    }
+    #}
 }
     
     
-
-
+#samenvatting: de array gebruiken. 2. van twee if-statements 1 maken.
+#currentnumer veranderen index
+#current number array index tijdelijke variabele
 
 #echo $arr[$currentNumber] . " ";
